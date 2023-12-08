@@ -32,6 +32,7 @@ function App() {
                   <Sidebar />
                   <Routes>
                     <Route path="/chart" element={<Chart />} />
+                    <Route path="/" element={<Chart />} />
                   </Routes>
                 </div>
               </>
